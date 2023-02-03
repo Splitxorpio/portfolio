@@ -313,6 +313,12 @@ img {
     footer{
         display: none;
     }
+    .ssft{
+        width: 200%;
+    }
+    #courses{
+        display: none;
+    }
 }
  footer{
     text-align: center;
