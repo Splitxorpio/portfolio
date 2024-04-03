@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raining Confetti</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .confetti {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-image: url('https://apply.admissions.uci.edu/www/images/application/bceater_64x64.png');
+      background-size: cover;
+      animation: confetti-fall 5s linear infinite;
+    }
+
+    @keyframes confetti-fall {
+      0% {
+        transform: translateY(-100vh) rotate(0deg);
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <script>
+    // Generate random confetti elements
+    for (let i = 0; i < 100; i++) {
+      const confetti = document.createElement('div');
+      confetti.classList.add('confetti');
+      confetti.style.left = Math.random() * 100 + 'vw';
+      confetti.style.animationDelay = Math.random() * 5 + 's';
+      document.body.appendChild(confetti);
+    }
+  </script>
+</body>
+</html>
