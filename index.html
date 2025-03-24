@@ -11,7 +11,7 @@
         <meta property="og:type" content="website">
         <meta property="og:title" content="Arnav Pandey - Portfolio" />
         <meta property="og:description"
-            content="Hi, my name is Arnav, I am a web developer, and I like to code and do hackathons!" />
+            content="Hi, my name is Arnav, I like to code and do hackathons!" />
         <meta property="og:url" content="https://portfolio.arnavpandey722.repl.co" />
         <meta property="og:image" content="https://replit.com/@arnavpandey722/portfolio#arnav.jpg" />
         <!-- Google tag (gtag.js) -->
@@ -23,22 +23,21 @@
 
             gtag('config', 'G-950G8X2R02');
         </script>
+        <script src="https://kit.fontawesome.com/6de65e3da1.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <section>
 
             <div class="container-center">
-                <img src="picture.png" alt="" class="head-img">
+                <img src="IMG_5174.jpg" alt="" class="head-img">
                 <br>
                 <h1 class="ml1">
                     <span class="text-wrapper">
-                        <span class="line line1"></span>
                         <span class="letters">Arnav Pandey</span>
-                        <span class="line line2"></span>
                     </span>
                 </h1>
                 <br>
-                <div class="row">
+                <div class="row" data-aos="fade-in" data-aos-duration="1000">
                     <a target="_blank" href="https://github.com/Splitxorpio" style="margin: 5px;">
                         <img src="https://logoeps.com/wp-content/uploads/2014/09/33600-github-logo-icon-vector-icon-vector-eps.png"
                         class="hvr-grow img" alt="">
@@ -51,15 +50,19 @@
                             class="hvr-grow img" alt="">
                     </a>
                 </div>
+                <br>
+                <div class="row" data-aos-duration="1500">
+                    <i data-aos="fade-in" class="fa-solid fa-arrow-down" style="font-size: 35px;"></i>
+                </div>
             </div>
         </section>
         <br>
         <br>
         <br>
-        <section>
+        <section id="main">
             <div class="row">
                 <div class="one-of-two" id="one">
-                    <img class="img-zooming" src="IMG_5174.jpg" alt="Arnav Pandey at UCI" style="width: 45%;" data-aos="zoom-out" data-aos-duration="1500">
+                    <img class="img-zooming" src="IMG_2574.jpg" alt="Arnav Pandey at UCI" style="width: 45%;" data-aos="zoom-out" data-aos-duration="1500">
                 </div>
                 <div class="one-of-two">
                     <h1 class="ml1" data-aos="fade-in" data-aos-duration="1000">
@@ -71,13 +74,14 @@
                     </h1>
                     <br>
                     <div style="width: 75%">
-                        <h2 data-aos="fade-up" data-aos-duration="1000" style="text-align: center;">
-                            I am an incoming student at <span style="color:yellow;">UC Irvine for <span style="color:lightblue">Computer Science</span></span>. I love hackathons, watching many movies , playing video games, and playing cricket! I
-                            work much better in a group of cooperative people than by myself, which I believe makes me a valuable team
-                            member. I look forward to working in a diverse array of software careers and learning new things! I have
-                            experience with multiple coding languages such as PHP, Python, C++, HTML, CSS, Javascript,
-                            and SQL.
-                        </h2>
+                        <h3 data-aos="fade-up" data-aos-duration="1000" style="text-align: left;">
+                            I am a Freshman at <span style="color:yellow;">UC Irvine</span> studying <span style="color:lightblue">Computer Science</span></span>! <br>
+                            <br>
+                            I have a passion for AI, machine learning, and embedded systems. I've worked on software development ranging from simple web development to computer vision and recommendation systems, I am also a big fan of hackathon organization.
+                            <br><br>
+                            Outside of coding, I enjoy biking, movies, eating food, and working on projects that solve real-world problems. I'm also a Regents Scholar and part of UCI's Campuswide Honors Collegium.
+                            <br><br>
+                        </h3>
                         <br>
                     </div>
                 </div>
@@ -86,53 +90,37 @@
         <div class="timeline">
             <div class="container left" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                 <div class="content">
-                    <img src="https://calcommit.org/main_files/logo.svg" alt="">
-                    <h2>President - Cal Commit</h2>
-                    <p>Leading a club in the computer science field that aspires to teach students collaboration and teamwork
-                        skills through the Git platform. We also plan to teach underprivileged cities and impoverished students. <a target="_blank" href="https://calcommit.org">Learn More</a> </p>
-                    <br>
-                    <strong>Workshop Host</strong>
-                    <p>Hosted the Introduction to Python and Introduction to Git workshop at Bay Area Hacks. Consisted of fundamentals of Python and Version Control.</p>
-                </div>
-            </div>
-            <div class="container right" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
-                <div class="content">
+                    <img src="first_american_logo.jpg" alt="">
+                    <img src="surf_social_logo.jpg" alt="">
+                    <img src="ezml_logo.jpg" alt="">
                     <img src="https://media.licdn.com/dms/image/C4E0BAQEKlPgzJsC6cg/company-logo_200_200/0/1669291044324?e=2147483647&v=beta&t=5Jo9eh-n8evOiXKJO0xZeT7HjI_2JUVOlc5Gjra6odo"
                         alt="">
-                    <img style="border-radius: 5px;" src="nebulus.png" alt="">
                     <h2>Internships</h2>
                     <ul>
-                        <li><strong>Super Purposes</strong> - Using knowledge of Web Developing (HTML, CSS, JS) to work with a
+                        <li><strong>First American</strong> - Incoming Software Engineer Intern at First American for Summer 2025
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><strong>Surf Social</strong> - Helped develop an AI-powered recommendation system using RoBERTa, BLIP, and zero-shot classification. Integrated Firebase Firestore and contributed to classifiers for context and political bias detection.
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><strong>ezML</strong> - Trained YOLOv8 and YOLOworld models for swimmer stance detection using PyTorch and Ultralytics. Used Google Colab for training and integrated models with RunPod for serverless inference.
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><strong>Super Purposes</strong> - Used knowledge of Web Developing (HTML, CSS, JS) to work with a
                             team of web
                             developers at Super Purposes to help
                             develop and maintain the Super Purposes website, as well as create the course pages.</li><br>
                     </ul>
                 </div>
             </div>
-            <div class="container left" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
-                <div class="content">
-                    <img style="border-radius: 5px;" src="stempower.png" alt="">
-                    <img style="border-radius: 20px;" src="https://assets.hackclub.com/icon-rounded.png" alt="">
-                    <img style="border-radius: 5px;" src="cshs.png" alt="">
-                    <img style="border-radius: 5px;" src="calhighinvest.png" alt="">
-                    <h2>Clubs</h2>
-                    <ul>
-                        <li><strong>STEMPower</strong> - Helping various students in elementary school learn about various STEM
-                            topics after school in Neil Armstrong Elementary School.</li><br>
-                        <li><strong>Hack Club Cal High</strong> - As Secretary, my job is to make sure members are attending
-                            meetings and also plan out the topics we will be teaching during the next meeting.</li><br>
-                        <li><strong>Computer Science Honor Society</strong> - As Vice President, I work alongside the president
-                            to make sure everything in the club is going according to plan. I also make sure that I
-                            am in charge of the club whenever the president is absent.</li><br>
-                        <li><strong>Cal High Investment Club</strong> - As Website Manager, my job is to make sure the cal high
-                            investment website stays up 24/7, looks visually appealing, and is up to date with all meeting
-                            slides.</li>
-                    </ul>
-                </div>
-            </div>
             <div class="container right" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                 <div class="content">
-                    <img style="border-radius: 5px;" src="https://gitinit.calcommit.org/gitinit.jpg" alt="">
+                    <img style="border-radius: 5px;" src="ieee.jpg" alt="">
+                    <img style="border-radius: 5px;" src="hackuci_logo.jpg" alt="">
+                    <img style="border-radius: 5px;" src="Screenshot 2025-03-23 215734.png" alt="">
                     <img style="border-radius: 5px;" src="techoptimumlogo.jpg" alt="">
                     <img style="border-radius: 5px;" src="calhacks.png" alt="">
                     <img style="border-radius: 5px; width: 60px;"
@@ -140,6 +128,10 @@
                         alt="">
                     <h2>Hackathon Organizer</h2>
                     <ul>
+                        <li><strong>BitHacks 2025</strong> - Director of logisitcs team to plan out social events, prizes, 
+                        workshops, meals, and lead applications of UC Irvine's first ever embedded systems hackathon. </li><br>
+                        <li><strong>IrvineHacks 2025</strong> - Part of the logistics committee and led the team formation
+                        and social events subcommittee to create team formation, gaming tournament, and photobooth social events at the hackathon.</li><br>
                         <li><strong>Git Init 2023</strong> - Organized a hackathon that had over 330 participants, had 56
                             submissions, and had over $100,000 in prizes. Is the largest highschool
                             student-hosted hackathon of 2023 as of January 7th, 2023.</li><br>
@@ -157,16 +149,14 @@
             </div>
             <div class="container left" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                 <div class="content">
+                    <img style="border-radius: 5px;" src="unlockhacks.png" alt="">
+                    <img src="original.png" alt="">
                     <img style="border-radius: 5px;"
                         src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/001/756/727/datas/medium.png"
                         alt="">
-                    <img style="border-radius: 5px;"
+                        <img style="border-radius: 5px;"
                         src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/001/321/995/datas/original.png"
                         alt="">
-                    <img style="border-radius: 5px;" src="unlockhacks.png" alt="">
-
-                    <img src="download.png" alt="">
-                    <img src="original.png" alt="">
                     <h2>Judging and Mentoring</h2>
                     <ul>
                         <li><strong>LaunchHacks ii</strong> - Helped hackers on providing constructive feedback to projects and answering questions regarding programming or the hackathon.</li><br>
@@ -178,34 +168,15 @@
                         <li><strong>GunnHacks 8.0</strong> - Guided hackers and gave feedback on projects in GunnHacks 8.0.
                             Helped hackers out with bugs and problems.</li>
                         <br>
-                        <li> <strong>SRVUSD Imagineering Program, California High School</strong> - Used knowledge of Python and
-                            programming to help younger generations overcome problems, answer
-                            questions and helped with concerns during the 3-day Introduction to Python</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container right" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
-                <div class="content">
-                    <img style="border-radius: 5px;" src="techoptimumlogo.jpg" alt="">
-                    <h2>Tech Optimum</h2>
-                    <ul>
-                        <li><strong>Former COO</strong> - Leveraging experience from 20+ hackathons and many languages to help
-                            lead a non-profit organization trying to help young
-                            students with finding their path in computer science.</li><br>
-                        <li><strong>Podcast Host</strong> - Hosted Tech Optimum Talks, which brought CEOs of startup companies
-                            trying to make a change in the world and interviewed them on their motivations and their likes and
-                            dislikes.</li>
                     </ul>
                 </div>
             </div>
         </div>
         <section class="mobile-vh">
             <div class="container-center2" style="justify-content: top;">
-                <h1 class="ml1" data-aos="fade-in" data-aos-duration="1000">
+                <h1 class="ml1" data-aos="fade-in" data-aos-duration="1000" style="margin: 50px;">
                     <span class="text-wrapper">
-                        <span class="line line1"></span>
                         <span class="letters">Achievements</span>
-                        <span class="line line2"></span>
                     </span>
                 </h1>
                 <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200" style="width: 50%; display: flex; flex-direction: column; align-items: center; background-color: white; text-align: center; padding-top: 15px; border-radius: 5px;" >
@@ -268,55 +239,7 @@
                 </div>
                 <br>
             </div>
-        </section>
-        <section id="courses">
-            <div class="container-center2 down-two">
-                <h1 class="ml1" data-aos="fade-in" data-aos-duration="1000">
-                    <span class="text-wrapper">
-                        <span class="line line1"></span>
-                        <span class="letters">Courses</span>
-                        <span class="line line2"></span>
-                    </span>
-                </h1>
-                <div class="row">
-                    <div class="one-of-three" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                        <img style="width: 30%;"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Mugm5h5Z82K8vUrjpJ3u8MLXJM4UTzfK7Pee39MqsR4TU9HYOucXhvexqkWR6hvhhR8&usqp=CAU"
-                            alt="" class="img">
-                        <h2>Object Oriented Programming with Python</h2>
-                        <p>Learned the basic fundamentals of OOP (Object Oriented Programming) with Python in the Course in
-                            Foothill College.</p>
-                        <a target="_blank" style="font-size: 15px; color: whitesmoke;"
-                            href="mailto: mailtoarnavpandey@gmail.com">Contact Me For
-                            Certification!</a>
-        
-                    </div>
-                    <div class="one-of-three" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                        <img style="width: 30%;"
-                            src="https://se-images.campuslabs.com/clink/images/842188c3-5ffe-4562-b22c-a4f4d9feb2bd68d8c362-539a-433a-89d8-f025d9110f1c.jpg?preset=med-sq"
-                            alt="" class="img">
-                        <h2>Big Data at Berkeley</h2>
-                        <p>Learned how to use Python to access data and handle data with the help of libraries like Numpy and
-                            Pandas at UC Berkeley's Data Science Bootcamp.</p>
-                        <a target="_blank" style="font-size: 15px; color: whitesmoke;"
-                            href="mailto: mailtoarnavpandey@gmail.com">Contact Me For
-                            Certification!</a>
-                    </div>
-                    <div class="one-of-three" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                        <img style="width: 30%;"
-                            src="https://play-lh.googleusercontent.com/oDuTGEHru1KMr3QOfQfPKgIdNnlq3WWQxpBYND23r2a7RVnS1HW0t7dyON86Vn_QhtM"
-                            alt="" class="img">
-                        <h2>Introduction to Machine Learning with Python</h2>
-                        <p>Learned basic concepts about Machine Learning and advanced topics in Data Science with Python in the
-                            Udemy Course.</p>
-                        <a target="_blank" style="font-size: 15px; color: whitesmoke;"
-                            href="mailto: mailtoarnavpandey@gmail.com">Contact Me For
-                            Certification!</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer>
+        <footer style="padding: 40px;">
             <p>Made with 🐸 by Arnav Pandey</p>
         </footer>
     </body>
